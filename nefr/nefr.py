@@ -137,7 +137,7 @@ def train(nerf_model, optimizer, scheduler, data_loader, device='cpu', hn=0, hf=
 
 if __name__ == '__main__':
     device = 'cuda'
-    
+    #load your dataset
     training_dataset = torch.from_numpy(np.load('training_data.pkl', allow_pickle=True))
     testing_dataset = torch.from_numpy(np.load('testing_data.pkl', allow_pickle=True))
     model = NerfModel(hidden_dim=256).to(device)

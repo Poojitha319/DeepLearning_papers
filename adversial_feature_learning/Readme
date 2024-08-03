@@ -25,7 +25,7 @@ To run this project, you'll need to have Python 3.x installed. Follow the steps 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/adversarial-feature-learning.git
+    git clone https://github.com/Poojitha319/DeepLearning_papers/adversial_feature_learning.git
     cd adversarial-feature-learning
     ```
 
